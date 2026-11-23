@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: pl-junior-pdf
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A Polish-language audit of a one-page Polish student CV: knockouts, 10-second scan, a 0-100 score with category breakdown, ranked fixes with quotes, and follow-up questions before any rewrite.
