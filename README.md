@@ -7,6 +7,7 @@ A collection of reusable [Claude Code](https://claude.com/claude-code) skills.
 | Skill | What it does |
 |---|---|
 | [`cv-audit`](cv-audit/) | Audits a CV/résumé like a company screen (ATS parse check, 10-second recruiter scan, scorecard), gives a 0-100 score and a ranked fix list, and rewrites the CV on approval. Aimed at Polish students/interns and juniors in IT and business. |
+| [`intern-contact-finder`](intern-contact-finder/) | Finds the right people (team leads, hiring managers, recruiters) to contact at a company for an internship, with LinkedIn URLs and ranked likely emails saved to a CSV, plus optional outreach drafts from your CV. Any field/country, tech by default. |
 
 ## Install
 
@@ -14,7 +15,7 @@ Copy a skill folder into your skills directory:
 
 ```bash
 # all projects
-cp -R cv-audit ~/.claude/skills/
+cp -R cv-audit intern-contact-finder ~/.claude/skills/
 
 # one project
 cp -R cv-audit <project>/.claude/skills/
